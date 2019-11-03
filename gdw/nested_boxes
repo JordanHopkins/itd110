@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+<title></title>
+<style>
+<title></title>
+<html>
+<body> 
+<h1> Nested Boxes </h1>
+<div id="box1>
+<style> 
+  "
+  Box 1
+  "
+<style> 
+<style>
+margin: 40px;
+    padding: 40px;
+    border: 10px solid #000;
+    background-color: #F0F;
+
+</style>
+</div id="box1>
+
+<title> </title>
+<div id="box2">
+<style> 
+
+margin: 40px;
+    padding: 40px;
+    border: 10px dotted #000;
+    background-color: #FF0;
+    
+</style>
+
+"
+ Box 2 
+  "
+
+</div id="box2">
+
+
+<div id="box3">
+     Box 3 
+</div id="box3">
+     </div>
+ </div>
+</div>
+<footer>
+
+</footer>
+</body>
+</html>
