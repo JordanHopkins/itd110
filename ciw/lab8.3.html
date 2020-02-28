@@ -6,39 +6,10 @@
 <title>Habitat for Humanity Int'l</title>
 </head>
 <body>
-  <script> 
-@font-face {
-font-family: arial;
-}
-
-article {	
-padding: 10px;
-}
-  </script>
-  <script> 
-header {
-border-bottom-style: solid;
-border-bottom-width: 5px;
-border-bottom-color: #d8d8d8;
-  </script>
 
 <header>
 <img src="media/logo.png" alt="Habitat for Humanity logo">
 </header>
-
-  <script>
-
-nav {
-background: #d8d8d8;
-font-size: 85%; 
-font-weight: bold;
-float: left;
-height: 420px;
-padding-right: 24px;
-margin-right: 10px;
-opacity: 0.8;
-}
-  </script>
 
 <nav>
 <p><a class="navlinks" href="http://www.habitat.org/how/about_us.aspx">Learn more</a></p>
@@ -46,14 +17,6 @@ opacity: 0.8;
 <p><a class="navlinks" href="http://www.habitat.org/gov">Advocate</a></p>
 <p><a class="navlinks" href="https://www.habitat.org/cd/giving/donate.aspx?r=r&amp;link=1">Donate</a></p>
 </nav> 
-  <script>
-
-  section {
-background-image: url("../media/globe.png");
-background-repeat: no-repeat;
-background-size: contain;
-}
-  </script>
 
 <section>
 
@@ -87,27 +50,39 @@ Years of Home Building Experience: 0 <input type="range" name="experience" min="
 Number of Habitat Homes Built: <input type="number" name="homesbuilt" min="0" max="5"></p>
 
 </form>
+<form>
+  <fieldset name="personal_info">
+<legend>Personal Information:</legend>
+First Name:<input type="text" name="firstname"><br>
+Last Name: <input type="text" name="lastname"><br>
+Date of Birth: <input type="date" name="dob"><br>
+Your Continent:
+<input list="continents" name="continent">
+<datalist id="continents">
+<option value="North America">
+<option value="South America">
+<option value="Europe">
+<option value="Asia">
+<option value="Africa">
+<option value="Australia">
+<option value="Antarctica">
+</datalist>
+<p>
+Reason for Volunteering:<br>
+<textarea name="reason" placeholder="I want to build houses for Habitat for Humanity because... (140 characters maximum)" maxlength="140" rows="3" cols="30">
+</textarea>
+</p>
 
-  <script>
+</fieldset>
+<br>
 
+<fieldset name="user-experience">
+<legend>Experience:</legend>
+Years of Home Building Experience: 0 <input type="range" name="experience" min="0" max="10"> 10+ <p>
+Number of Habitat Homes Built: <input type="number" name="homesbuilt" min="0" max="5"></p>
+</fieldset>
 
-.floatright {
-float: right;
-clear: right;
-margin: 10px;
-}
-
-.navlinks {
-display: block;
-border: 2px solid #a1a1a1;
-padding: 2px 5px; 
-background: #add8e6;
-border-radius: 5px;
-text-decoration: none;
-box-shadow: 5px 5px 5px #888888;
-}
-</script>
-
+</form>
 </article> 
 
 </section> 
