@@ -10,4 +10,6 @@ file:///Users/980337/Projects/itd110/jordanclosetimages.html
 file:///Users/980337/Projects/itd110/Jordan-sCloset-/jordanscloset.html
 
 file:///Users/980337/Projects/itd110/jordanclosetimages.html
+
+file:///Users/980337/Projects/itd110/Jordan-sCloset-/jordanscloset.html
 # itd110
